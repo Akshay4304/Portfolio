@@ -43,6 +43,7 @@
     padding: 0 1rem;
     border-radius: 2rem;
     cursor: pointer;
+   
 
 }
 
@@ -50,9 +51,13 @@
     background: yellow;
 
 }
-.desktopMenuBtn:active{
+/* .desktopMenuBtn:active{
     transform: scale(0.96);
-}
+} */
+.desktopMenuBtn:active {
+    background-color: #8ea366;
+    transform: scale(0.96);
+  }
 
 .desktopMenuImg{
     object-fit: cover;

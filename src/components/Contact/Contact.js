@@ -2,8 +2,6 @@ import React, { useRef } from 'react'
 import './Contact.css'
 import codeme from '../../assets/43190.jpg'
 import Orion from '../../assets/le-orion.jpg'
-// import microsoft from '../../assets/microsoft.png'
-// import facebook from '../../assets/facebook.png'
 import facebookicon from '../../assets/facebook-icon.png'
 import instagramicon from '../../assets/instagram.png'
 import twittericon from '../../assets/twitter.png'
@@ -27,7 +25,7 @@ const Contact = () => {
     return;
   }
 
-    emailjs.sendForm('service_unp8kgd', 'template_31f47hy', form.current, 'zTUdAPS8mqu9WTBjg')
+    emailjs.sendForm('service_w5xcm3v', 'template_vdzyewc', form.current, 'GSwVuEdV7OTTmTAW6')
       .then((result) => {
           console.log(result.text);
           e.target.reset();
@@ -35,6 +33,7 @@ const Contact = () => {
        })
        .catch((error) => {
           console.error("Error sending email:", error);
+          alert('Email not sent')
        });
     };
   return (

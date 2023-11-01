@@ -16,14 +16,17 @@
 }
 .logo{
     object-fit: cover;
-    height: 3rem;
-    width: 4rem;
+    height: 5rem;
+    width: 5rem;
 
 
 }
 .desktopMenuListItem{
     margin: 1rem;
     cursor: pointer;
+    /* font-size: ; */
+    font-weight: 600;
+    
 
 }
 .desktopMenuListItem:hover{
@@ -51,9 +54,7 @@
     background: yellow;
 
 }
-/* .desktopMenuBtn:active{
-    transform: scale(0.96);
-} */
+
 .desktopMenuBtn:active {
     background-color: #8ea366;
     transform: scale(0.96);

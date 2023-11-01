@@ -60,7 +60,7 @@ const Contact = () => {
             <button  type='submit' value="Send" className='submitBtn'>Submit</button>
             <div className='links'>
                 <a href='https://www.facebook.com/akshay.akshayk.3958'><img src={facebookicon} alt='Facebook' className='link' /></a>
-                <a href='https://twitter.com/home?logout=1691820440705'><img src={twittericon} alt='Twitter' className='link' /></a>
+                <a href='https://twitter.com/Akshayk63188920'><img src={twittericon} alt='Twitter' className='link' /></a>
                 <a href='https://www.instagram.com/_akshayyy_______/'><img src={instagramicon} alt='instagram' className='link' /></a> 
                 <a href=''><img src={youtubeicon} alt='youtube' className='link' /></a>
             </div>

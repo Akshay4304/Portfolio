@@ -5,6 +5,7 @@
     margin: 0 auto;
     overflow: hidden;
     position: relative;
+    display: flex;
 
 }
 .bg{
@@ -33,10 +34,16 @@
     
     color: yellow;
 }
+
+
+.introText {
+    font-size: 3rem;
+    font-weight: 700;
+}
 .introPara{
-    font-size: medium;
     font-weight: 300;
-    
+    font-size: 1rem;
+
 
 }
 .btn{
@@ -61,21 +68,41 @@
     margin: 0 0.25rem;
     height: 1rem;
 }
-@media screen and(max-width:840px) {
-    .bg{
-       right: -10vw; 
-    }
-    .introContent{
-        font-size: 10vw;
-    }
-    .hello{
-        font-size: 4.5vw;
-    }
-    
+.introText {
+    font-size: 3rem;
+    font-weight: 700;
 }
-@media screen and (max-width:480px){
-    .bg{
-        right: -10vw;
+
+
+
+@media screen and (max-width: 840px) {
+    .introContent {
+        font-size: 2rem;
     }
-    
+
+    .hello {
+        font-size: 1.5rem;
+    }
+
+    .introText {
+        font-size: 2rem;
+    }
+
+
+}
+
+@media screen and (max-width: 480px) {
+    .introContent {
+        font-size: 1.5rem;
+    }
+
+    .hello {
+        font-size: 1.2rem;
+    }
+
+    .introText {
+        font-size: 1.5rem;
+    }
+
+   
 }
